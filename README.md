@@ -14,10 +14,10 @@ Result:
 * test --limit 2 on Colab
 ![download_2](download_2.jpg)
 
- ## Convert annotaion label to XML format
+## Convert annotaion label to XML format
  
     python oid_to_pascal_voc_xml.py
       
- ## Convert XML to YOLO v3 file structure
- 
-    python [XML_to_YOLOv3.py](https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3/blob/master/tools/XML_to_YOLOv3.py)
+## Convert XML to YOLO v3 file structure
+
+   python [XML_to_YOLOv3.py](https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3/blob/master/tools/XML_to_YOLOv3.py)
