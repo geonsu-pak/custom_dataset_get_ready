@@ -9,28 +9,10 @@
     python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv test --limit 200
     
 Result:
-<pre>
-    OID
-        │
-        └─── csv_folder
-        │   │
-        │   └─── class-descriptions-boxable.csv
-        │   │
-        │   └─── test-annotations-bbox.csv
-        │   │
-        │   └─── train-annotations-bbox.csv
-        └─── OID
-            │
-            └─── Dataset
-                │
-                └─── train
-                │   │
-                │   └─── Bus, Car, Person, ...
-                │   
-                └─── test
-                    │
-                    └─── Bus, Car, Person, ...
-</pre>
+* train --limit 10 on Colab
+![download_1](download_1.jpg)
+* test --limit 2 on Colab
+![download_2](download_2.jpg)
 
  ## Convert annotaion label to XML format
  
