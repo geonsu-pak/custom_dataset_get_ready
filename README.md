@@ -8,7 +8,7 @@
     python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv train --limit 2000
     python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv test --limit 200
     
-Result:
+## Result:
 * train --limit 10 on Colab
 ![download_1](download_1.jpg)
 * test --limit 2 on Colab
