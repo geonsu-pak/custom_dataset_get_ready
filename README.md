@@ -15,9 +15,12 @@
     python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv test --limit 200
 ![download_2](download_2.jpg)
 
+### Check if mages and Label texts are downloaded in OID/Dataset/train(test) and  OID/Dataset/train(test)/Label
+![label_text](label_text.jpg)
+
 ## Convert annotaion label to XML format
- 
     python oid_to_pascal_voc_xml.py
+![label_xml](label_xml.jpg)
       
 ## Convert XML to YOLO v3 file structure
 
