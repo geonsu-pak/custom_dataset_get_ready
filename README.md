@@ -1,17 +1,18 @@
 # dataset for object detection
 
+## Tool kit installation for downloading Open Images Dataset
 [Open Images Dataset V6 + Extensions](https://storage.googleapis.com/openimages/web/index.html) - 15,851,536 boxes on 600 categories
 
     git clone https://github.com/pythonlessons/OIDv4_ToolKit.git
     pip install -r OIDv4_ToolKit/requirements.txt
    
+## Download 2000 train images (on Colab)
     python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv train --limit 2000
-    python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv test --limit 200
-    
-## Result:
-* train --limit 10 on Colab
 ![download_1](download_1.jpg)
-* test --limit 2 on Colab
+
+
+## Download 200 test images (on Colab)
+    python main.py downloader --classes 'Vehicle registration plate' 'Traffic sign' 'Traffic light' Car Bus Truck Person --type_csv test --limit 200
 ![download_2](download_2.jpg)
 
 ## Convert annotaion label to XML format
