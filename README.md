@@ -1,4 +1,4 @@
-# dataset for object detection
+# dataset for yolo3 object detection
 
 ## Tool kit installation for downloading Open Images Dataset
 [Open Images Dataset V6 + Extensions](https://storage.googleapis.com/openimages/web/index.html) - 15,851,536 boxes on 600 categories
